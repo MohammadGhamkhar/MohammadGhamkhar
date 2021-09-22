@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    /* margin-left: 100px; */
+    padding-left: 22%;
+}
+.bg-b {
+    z-index: 1;
+    background-color: lightsteelblue;
+    border: solid;
+    border-color: darkblue;
+    margin-bottom: 10px;
+    
+}
+p1, p2, p3, p4, p5 {
+color: blue;
+text-decoration: underline;
+}
+.name {
+    text-align: center;
+    position: relative;
+    top: 5px;
+    padding: 7px;
+}
+.navigationBar {
+    background-color: darkblue;
+    
+  }
+   
+  ul {
+    margin: 0;
+    padding: 0 41px;
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+  }
+  ul li:not(:last-child) {
+    margin-right: 80px;
+  }
+  ul li {
+    padding:10px;
+    border: 1px solid transparent;
+    transition: background 0.2s;
+    
+  }
+  ul li a {
+    color: lightgray;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  ul li:hover, ul li a:hover {
+    font-weight: bold;
+    color: #fff;
+    
+  }
+  .border1 {
+      border: solid;
+      border-color: blue;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 5px;
+  }
+  .img1 {
+    float: right;
+  }
+  .clearfix {
+    overflow: auto;
+  }
+  .loremipsum {
+    
+    margin-top: -22px;
+  }
+  .text1 {
+    /* white-space: nowrap; */
+    height: 100px;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    margin-top: -17px;
+  }
+  
+  .border2 {
+    border: solid;
+    border-color: blue;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.section {
+  margin-top: -22px;
+}
+.text2 {
+  height: 100px;
+  overflow: hidden;
+  margin-top: -17px;
+}
+.border3 {
+  border: solid;
+  border-color: blue;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+.translation {
+  margin-top: -22px;
+}
+.text3 {
+  height: 100px;
+  overflow: hidden;
+  margin-top: -17px;
+}
+.border4 {
+  border: solid;
+  border-color: blue;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+.section2 {
+  margin-top: -22px;
+}
+.text4 {
+  height: 100px;
+  overflow: hidden;
+  margin-top: -17px;
+}
+.border5 {
+    border: solid;
+    border-color: blue;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.translation2 {
+  margin-top: -22px;
+}
+.text5 {
+  height: 100px;
+  overflow: hidden;
+  margin-top: -17px;
+}
+div.border5:hover, div.border4:hover, div.border3:hover, div.border2:hover, div.border1:hover {
+  background-color: darkcyan;
+}
+.copy {
+  text-align: center;
+}
